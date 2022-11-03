@@ -5,7 +5,7 @@ import profile from "../profile.png"
 class Content extends React.Component{
     render(){
         const imgStyle = {
-            "border-radius": "50%",
+            "borderRadius": "50%",
             "height": "3rem",
             "width": "3rem",
             
