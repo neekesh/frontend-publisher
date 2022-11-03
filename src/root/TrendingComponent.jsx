@@ -1,17 +1,16 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 class Trending extends React.Component{
     render(){
         return(
             <div className="col-md-3 col-xl-4 ">
             
-                <div class="input-group mt-4 mb-4">
-                    <div class="form-outline">
-                        <input id="search-input" type="search" class="form-control" />
+                <div className="input-group mt-4 mb-4">
+                    <div className="form-outline">
+                        <input id="search-input" type="search" className="form-control" />
                     </div>
-                    <button id="search-button" type="button" class="btn btn-primary">
-                        <FontAwesomeIcon icon="search" />
+                    <button id="search-button" type="button" className="btn btn-primary">
+                        <i class="bi bi-search"></i>
                     </button>
                 </div>
                                 
