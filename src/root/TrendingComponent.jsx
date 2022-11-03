@@ -10,7 +10,7 @@ class Trending extends React.Component{
                         <input id="search-input" type="search" className="form-control" />
                     </div>
                     <button id="search-button" type="button" className="btn btn-primary">
-                        <i class="bi bi-search"></i>
+                        <i className="bi bi-search"></i>
                     </button>
                 </div>
                                 
