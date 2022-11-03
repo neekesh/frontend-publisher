@@ -11,7 +11,7 @@ class Content extends React.Component{
             
         }
         return (
-            <div className="container col-md-7 col-xl-7 ">
+            <div className="container col-md-6 col-xl-6 ">
                 <div className="mt-4">
                     <h3>Home</h3>
                 </div>

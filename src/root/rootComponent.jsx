@@ -12,9 +12,9 @@ class Root extends React.Component{
         return(
             <main className="row">
                 <BrowserRouter>
-                    <Sidebar />
+                    
                     <Routes>
-                        <Route path="*" element={<div className="col-md-9 row"><Content/> <Trending/></div>}></Route>
+                        <Route path="*" element={<div className="row"><Sidebar /> <Content/> <Trending/></div>}></Route>
                         <Route path="/login" element={<Login />}></Route>
                         <Route path="/register" element={<Register/>}></Route>
                     </Routes>
