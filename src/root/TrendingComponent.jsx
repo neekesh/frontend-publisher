@@ -3,7 +3,7 @@ import React from "react";
 class Trending extends React.Component{
     render(){
         return(
-            <div className="col-md-3 col-xl-4 ">
+            <div className="col-md-3 col-xl-3 ">
             
                 <div className="input-group mt-4 mb-4">
                     <div className="form-outline">
