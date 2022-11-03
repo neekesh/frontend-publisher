@@ -4,11 +4,11 @@ import './index.css';
 import Root from './root/rootComponent';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import 'bootstrap-icons/font/bootstrap-icons.css'
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { faHouse, faUser, faBell , faFeather, faStar, faCommentAlt, faShareAlt, faSearch, faSignInAlt, faUserPlus} from "@fortawesome/free-solid-svg-icons";
 
-library.add( faHouse, faUser, faBell, faFeather, faStar, faCommentAlt, faShareAlt, faSearch, faSignInAlt, faUserPlus);
+import { faStar, faCommentAlt, faShareAlt, faUserPlus} from "@fortawesome/free-solid-svg-icons";
+library.add( faStar, faCommentAlt, faShareAlt, faUserPlus);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
