@@ -1,13 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import Root from './root/rootComponent';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { faHouse, faUser, faBell , faFeather, faStar, faCommentAlt, faShareAlt, faSearch, faSignInAlt, faUserPlus} from "@fortawesome/free-solid-svg-icons";
+
+library.add( faHouse, faUser, faBell, faFeather, faStar, faCommentAlt, faShareAlt, faSearch, faSignInAlt, faUserPlus);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Root />
   </React.StrictMode>
 );
 
