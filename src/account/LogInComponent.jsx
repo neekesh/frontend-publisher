@@ -9,7 +9,6 @@ class Login extends React.Component{
             username: '',
             password: "",
             checkbox: false,
-            msg: ''
         }
         this.handleSubmit = this.handleSubmit.bind(this);
         this.handleChange = this.handleChange.bind(this);
@@ -48,10 +47,7 @@ class Login extends React.Component{
                 alert(data.msg)
                 document.getElementById('#msg').innerHTML = data.msg
             }
-            this.setState({
-                ...this.state,
-                msg: data.msg
-            })
+            
         })
         .catch((error) => {
             console.log("error", error)
